@@ -10,11 +10,11 @@ This application demonstrates the use of Object-Oriented Programming (OOP) conce
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/tanush-peronal-cei/git-practice.git
    ```
 2. Checkout to the `coding-best-practices` branch:
    ```bash
-   cd your-repo
+   cd git-practice
    git checkout coding-best-practices
    ```
 
@@ -50,3 +50,17 @@ This application uses the **Factory Pattern** to create different types of vehic
 - `http://127.0.0.1:3000/cycle`: Endpoint for cycle data.
 - `http://127.0.0.1:3000/aeroplane`: Endpoint for aeroplane data.
 
+## Starting the Backend Server
+1. Navigate to the project directory:
+   ```bash
+   cd git-practice
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the server:
+   ```bash
+   node server.js
+   ```
+4. Ensure the server is running at `http://127.0.0.1:3000/`.
