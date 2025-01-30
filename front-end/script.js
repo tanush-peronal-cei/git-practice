@@ -34,6 +34,7 @@ class Vehicle {
     }
 }
 
+// Parent class
 class Car extends Vehicle {
     constructor(color) {
         super(color)
@@ -46,6 +47,7 @@ class Car extends Vehicle {
     }
 }
 
+// Child class
 class Cycle extends Vehicle {
     constructor(color) {
         super(color)
@@ -58,6 +60,7 @@ class Cycle extends Vehicle {
     }
 }
 
+// Child class
 class Aeroplane extends Vehicle {
     constructor(color) {
         super(color)

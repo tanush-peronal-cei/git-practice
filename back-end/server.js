@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 app.get('/', (req, res) => {
-  res.json({data:'Welcome to Git Practice'})
+  res.json({data:'Welcome to the implementations of concepts from the session on "Coding Best Practices"'})
 })
 
 app.get('/car', (req, res) => {
