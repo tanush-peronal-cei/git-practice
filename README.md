@@ -17,6 +17,25 @@ This application demonstrates the use of Object-Oriented Programming (OOP) conce
    cd git-practice
    git checkout coding-best-practices
    ```
+## API Endpoints
+- `http://127.0.0.1:3000/car`: Endpoint for car data.
+- `http://127.0.0.1:3000/cycle`: Endpoint for cycle data.
+- `http://127.0.0.1:3000/aeroplane`: Endpoint for aeroplane data.
+
+## Starting the Backend Server
+1. Navigate to the project directory:
+   ```bash
+   cd git-practice
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the server:
+   ```bash
+   node server.js
+   ```
+4. Ensure the server is running at `http://127.0.0.1:3000/`.
 
 ## Running the Application
 1. Open the `index.html` file in your browser.
@@ -45,22 +64,4 @@ This application demonstrates the use of Object-Oriented Programming (OOP) conce
 ## Design Pattern
 This application uses the **Factory Pattern** to create different types of vehicles. The `createVehicle` function acts as a factory method to instantiate the appropriate vehicle class based on the type provided.
 
-## API Endpoints
-- `http://127.0.0.1:3000/car`: Endpoint for car data.
-- `http://127.0.0.1:3000/cycle`: Endpoint for cycle data.
-- `http://127.0.0.1:3000/aeroplane`: Endpoint for aeroplane data.
 
-## Starting the Backend Server
-1. Navigate to the project directory:
-   ```bash
-   cd git-practice
-   ```
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the server:
-   ```bash
-   node server.js
-   ```
-4. Ensure the server is running at `http://127.0.0.1:3000/`.
