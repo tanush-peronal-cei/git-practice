@@ -8,7 +8,13 @@ async function getHeading() {
 }
 
 function getColor() {
-    return document.getElementById('colorInput').value
+    const color = document.getElementById('colorInput').value
+    document.getElementById('colorInput').value = ''
+
+    if (color == '') {
+        alert("'Enter a color' field is empty")
+    }
+    return color
 }
 
 class Vehicle {
@@ -16,6 +22,9 @@ class Vehicle {
         this.color = color
     }
     async hasEngine(vehicleName) {
+        if (this.color == '') {
+            return
+        }
         const response = await fetch(this.apiBaseUrl)
 
         const data = await response.json();
